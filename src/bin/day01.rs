@@ -1,5 +1,4 @@
 use std::cmp::Reverse;
-
 use itertools::Itertools;
 
 fn main() -> color_eyre::Result<()> {
@@ -33,7 +32,7 @@ fn main() -> color_eyre::Result<()> {
         .take(3)
         .map(|r| r.0)
         .sum::<u64>();
-    println!("Answer for part 1 is {:?}", answer2);
+    println!("Answer for part 2 is {:?}", answer2);
 
     Ok(())
 }
